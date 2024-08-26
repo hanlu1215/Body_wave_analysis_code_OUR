@@ -11,7 +11,7 @@ data_path_root = "./data_202408/";
 save_path_root = "./result_202408/";
 mkdir_han(save_path_root);
 % 直接从excel读取，没有经过尺寸转换，为像素距离，经过本节转换，转为mm单位
-data_name = '20240701（橡皮筋月牙形尾鳍）60fps_k2l4ying_6hz_data_xy';
+data_name = '20240816(弹簧钢月牙形短尾)_30fps_k33334_4hz_data_xy';
 %%
 excel_filename = data_path_root+data_name+".xlsx";
 data_msg = readmatrix(excel_filename,'Sheet','config');%fps, lin_pix, dn, data_fps
